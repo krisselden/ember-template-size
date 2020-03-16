@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "outDir": "dist",
+        "target": "ES2018",
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "noEmit": true,
+        "strict": true
+    },
+    "files": ["globals.d.ts", "index.js"]
+}
