@@ -5,8 +5,8 @@
 ```sh
 ember-template-size [options] <path>
 ```
-
-| option  | multiple | description   | default |
+### options
+| name  | multiple | description   | default |
 |-------- |---------------|---------|-|
 | ouput | no | report json path |  template-size-report.json|
 | glob  | yes | template glob(s) | **/*.hbs |
