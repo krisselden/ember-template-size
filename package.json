@@ -2,26 +2,29 @@
   "name": "ember-template-size",
   "version": "0.1.0",
   "description": "Compare ember template sizes compiled on different versions",
+  "repository": "github:krisselden/ember-template-size",
   "license": "BSD-2-Clause",
   "author": "Kris Selden <kris.selden@gmail.com>",
-  "bin" : { "ember-template-size" : "./index.js" },
   "files": [
     "compilers",
     "worker",
     "index.js"
   ],
-  "devDependencies": {
-    "@types/minimist": "^1.2.0",
-    "@types/node": "^13.9.0",
-    "prettier-eslint": "^9.0.1",
-    "typescript": "^3.8.3"
+  "bin": {
+    "ember-template-size": "./index.js"
   },
   "dependencies": {
     "minimist": "^1.2.5",
     "race-cancellation": "^0.4.1",
     "walk-sync": "^2.0.2"
   },
+  "devDependencies": {
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^13.9.0",
+    "prettier-eslint": "^9.0.1",
+    "typescript": "^3.8.3"
+  },
   "engines": {
-    "node" : ">= 12"
+    "node": ">= 12"
   }
 }
